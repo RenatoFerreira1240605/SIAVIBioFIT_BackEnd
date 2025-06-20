@@ -22,6 +22,7 @@ namespace SIAVIBioFITBackEnd.Models
         public int LoginCount { get; set; } = 1;
         public DateTime RegisteredAt { get; set; } = DateTime.UtcNow;
         public List<Session> Sessions { get; set; } = new();
+        public byte[]? FaceImage { get; set; }
     }
 
 }

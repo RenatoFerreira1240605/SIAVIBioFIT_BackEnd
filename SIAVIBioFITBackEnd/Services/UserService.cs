@@ -24,7 +24,7 @@ namespace SiaviBioFit.Shared.Services
             return await _context.Users.FindAsync(email);
         }
 
-        public async Task<List<User>> GetAllAsync()
+        public async Task<List<User>> GetAllUsersAsync()
         {
             return await _context.Users.ToListAsync();
         }

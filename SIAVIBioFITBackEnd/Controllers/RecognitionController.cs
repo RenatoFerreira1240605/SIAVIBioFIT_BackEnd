@@ -1,31 +1,56 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using SiaviBioFit.Shared.Services;
+using SIAVIBioFITBackEnd.DTOs;
 using SIAVIBioFITBackEnd.Utils;
 
 namespace SIAVIBioFITBackEnd.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
     public class RecognitionController : ControllerBase
     {
-        [HttpPost]
-        [Route("api/recognize")]
-        public async Task<IActionResult> Recognize(IFormFile image)
+        private readonly UserService _userService;
+
+        public RecognitionController(UserService userService)
         {
-            var uploadsPath = Path.Combine(Directory.GetCurrentDirectory(), "Temp");
-            Directory.CreateDirectory(uploadsPath);
+            _userService = userService;
+        }
 
-            var imagePath = Path.Combine(uploadsPath, "captured.jpg");
-            using var stream = new FileStream(imagePath, FileMode.Create);
-            await image.CopyToAsync(stream);
+        [HttpPost]
+        [Consumes("multipart/form-data")]
+        public async Task<IActionResult> Recognize([FromForm] RecognitionDto request)
+        {
+            var image = request.Image;
 
-            var result = FaceRecognitionHelper.Run(imagePath);
+            if (image == null || image.Length == 0)
+                return BadRequest("Imagem não fornecida.");
 
-            return Ok(new
+            // 1. Gravar imagem capturada
+            var capturedPath = Path.Combine(Path.GetTempPath(), "captured.jpg");
+            using (var stream = new FileStream(capturedPath, FileMode.Create))
             {
-                match = result.match,
-                email = result.email
-            });
+                await image.CopyToAsync(stream);
+            }
+
+            // 2. Obter utilizadores via serviço
+            var users = await _userService.GetAllUsersAsync();
+
+            foreach (var user in users)
+            {
+                if (user.FaceImage == null)
+                    continue;
+
+                var result = FaceRecognitionHelper.Run(user.FaceImage, capturedPath);
+
+                if (result.match)
+                {
+                    result.email = user.Email;
+                    return Ok(result);
+                }
+            }
+
+            return Ok(new FaceRecognitionResult { match = false, email = null });
         }
     }
 }

@@ -39,10 +39,10 @@ namespace SIAVIBioFITBackEnd.Controllers
             Directory.CreateDirectory(path);
             var imagePath = Path.Combine(path, "reference.jpg");
 
-            using (var stream = new FileStream(imagePath, FileMode.Create))
-            {
-                await request.Image.CopyToAsync(stream);
-            }
+            using var memoryStream = new MemoryStream();
+            await request.Image.CopyToAsync(memoryStream);
+            var imageBytes = memoryStream.ToArray();
+
 
             var user = new User
             {
@@ -53,7 +53,8 @@ namespace SIAVIBioFITBackEnd.Controllers
                 Level = 1,
                 LoginCount = 1,
                 Score = 0,
-                RegisteredAt = DateTime.UtcNow
+                RegisteredAt = DateTime.UtcNow,
+                FaceImage = imageBytes
             };
 
             if (await _context.Users.AnyAsync(u => u.Email == request.Email))

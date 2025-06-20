@@ -2,18 +2,35 @@ import face_recognition
 import sys
 import json
 
-reference_path = "reference.jpg"
-captured_path = sys.argv[1]
+if len(sys.argv) != 3:
+    print(json.dumps({"match": False, "email": None}))
+    sys.exit(1)
 
-ref_img = face_recognition.load_image_file(reference_path)
-ref_enc = face_recognition.face_encodings(ref_img)[0]
+reference_path = sys.argv[1]
+captured_path = sys.argv[2]
 
-test_img = face_recognition.load_image_file(captured_path)
-test_enc = face_recognition.face_encodings(test_img)[0]
+try:
+    ref_image = face_recognition.load_image_file(reference_path)
+    cap_image = face_recognition.load_image_file(captured_path)
 
-match = face_recognition.compare_faces([ref_enc], test_enc)[0]
+    ref_encodings = face_recognition.face_encodings(ref_image)
+    cap_encodings = face_recognition.face_encodings(cap_image)
 
-print(json.dumps({
-    "match": match,
-    "email": "test@example.com" if match else None
-}))
+    if len(ref_encodings) == 0 or len(cap_encodings) == 0:
+        raise Exception("Face not found in one of the images.")
+
+    match = face_recognition.compare_faces([ref_encodings[0]], cap_encodings[0])[0]
+
+    result = {
+        "match": match,
+        "email": None  # backend decidirá qual email está associado
+    }
+
+    print(json.dumps(result))
+except Exception as e:
+    result = {
+        "match": False,
+        "email": None,
+        "error": str(e)
+    }
+    print(json.dumps(result))

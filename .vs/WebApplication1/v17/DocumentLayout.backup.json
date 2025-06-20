@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A7D0F28C-5F8D-B85A-B598-65CE9682E4D6}|SIAVIBioFITBackEnd\\SIAVIBioFITBackEnd.csproj|c:\\users\\renfe\\desktop\\siavibiofi_backend\\siavibiofitbackend\\controllers\\recognitioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D0F28C-5F8D-B85A-B598-65CE9682E4D6}|SIAVIBioFITBackEnd\\SIAVIBioFITBackEnd.csproj|solutionrelative:siavibiofitbackend\\controllers\\recognitioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D0F28C-5F8D-B85A-B598-65CE9682E4D6}|SIAVIBioFITBackEnd\\SIAVIBioFITBackEnd.csproj|c:\\users\\renfe\\desktop\\siavibiofi_backend\\siavibiofitbackend\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D0F28C-5F8D-B85A-B598-65CE9682E4D6}|SIAVIBioFITBackEnd\\SIAVIBioFITBackEnd.csproj|solutionrelative:siavibiofitbackend\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D0F28C-5F8D-B85A-B598-65CE9682E4D6}|SIAVIBioFITBackEnd\\SIAVIBioFITBackEnd.csproj|c:\\users\\renfe\\desktop\\siavibiofi_backend\\siavibiofitbackend\\utils\\facerecognitionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D0F28C-5F8D-B85A-B598-65CE9682E4D6}|SIAVIBioFITBackEnd\\SIAVIBioFITBackEnd.csproj|solutionrelative:siavibiofitbackend\\utils\\facerecognitionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A7D0F28C-5F8D-B85A-B598-65CE9682E4D6}|SIAVIBioFITBackEnd\\SIAVIBioFITBackEnd.csproj|c:\\users\\renfe\\desktop\\siavibiofi_backend\\siavibiofitbackend\\controllers\\uerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7D0F28C-5F8D-B85A-B598-65CE9682E4D6}|SIAVIBioFITBackEnd\\SIAVIBioFITBackEnd.csproj|solutionrelative:siavibiofitbackend\\controllers\\uerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7D0F28C-5F8D-B85A-B598-65CE9682E4D6}|SIAVIBioFITBackEnd\\SIAVIBioFITBackEnd.csproj|c:\\users\\renfe\\desktop\\siavibiofi_backend\\siavibiofitbackend\\dtos\\registeruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7D0F28C-5F8D-B85A-B598-65CE9682E4D6}|SIAVIBioFITBackEnd\\SIAVIBioFITBackEnd.csproj|solutionrelative:siavibiofitbackend\\dtos\\registeruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7D0F28C-5F8D-B85A-B598-65CE9682E4D6}|SIAVIBioFITBackEnd\\SIAVIBioFITBackEnd.csproj|c:\\users\\renfe\\desktop\\siavibiofi_backend\\siavibiofitbackend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D0F28C-5F8D-B85A-B598-65CE9682E4D6}|SIAVIBioFITBackEnd\\SIAVIBioFITBackEnd.csproj|solutionrelative:siavibiofitbackend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7D0F28C-5F8D-B85A-B598-65CE9682E4D6}|SIAVIBioFITBackEnd\\SIAVIBioFITBackEnd.csproj|c:\\users\\renfe\\desktop\\siavibiofi_backend\\siavibiofitbackend\\controllers\\recognitioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7D0F28C-5F8D-B85A-B598-65CE9682E4D6}|SIAVIBioFITBackEnd\\SIAVIBioFITBackEnd.csproj|solutionrelative:siavibiofitbackend\\controllers\\recognitioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7D0F28C-5F8D-B85A-B598-65CE9682E4D6}|SIAVIBioFITBackEnd\\SIAVIBioFITBackEnd.csproj|c:\\users\\renfe\\desktop\\siavibiofi_backend\\siavibiofitbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D0F28C-5F8D-B85A-B598-65CE9682E4D6}|SIAVIBioFITBackEnd\\SIAVIBioFITBackEnd.csproj|solutionrelative:siavibiofitbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7D0F28C-5F8D-B85A-B598-65CE9682E4D6}|SIAVIBioFITBackEnd\\SIAVIBioFITBackEnd.csproj|c:\\users\\renfe\\desktop\\siavibiofi_backend\\siavibiofitbackend\\dtos\\registeruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D0F28C-5F8D-B85A-B598-65CE9682E4D6}|SIAVIBioFITBackEnd\\SIAVIBioFITBackEnd.csproj|solutionrelative:siavibiofitbackend\\dtos\\registeruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A7D0F28C-5F8D-B85A-B598-65CE9682E4D6}|SIAVIBioFITBackEnd\\SIAVIBioFITBackEnd.csproj|c:\\users\\renfe\\desktop\\siavibiofi_backend\\siavibiofitbackend\\controllers\\exerciselogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,26 +43,14 @@
       "RelativeMoniker": "D:0:0:{A7D0F28C-5F8D-B85A-B598-65CE9682E4D6}|SIAVIBioFITBackEnd\\SIAVIBioFITBackEnd.csproj|solutionrelative:siavibiofitbackend\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7D0F28C-5F8D-B85A-B598-65CE9682E4D6}|SIAVIBioFITBackEnd\\SIAVIBioFITBackEnd.csproj|c:\\users\\renfe\\desktop\\siavibiofi_backend\\siavibiofitbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7D0F28C-5F8D-B85A-B598-65CE9682E4D6}|SIAVIBioFITBackEnd\\SIAVIBioFITBackEnd.csproj|solutionrelative:siavibiofitbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A7D0F28C-5F8D-B85A-B598-65CE9682E4D6}|SIAVIBioFITBackEnd\\SIAVIBioFITBackEnd.csproj|c:\\users\\renfe\\desktop\\siavibiofi_backend\\siavibiofitbackend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A7D0F28C-5F8D-B85A-B598-65CE9682E4D6}|SIAVIBioFITBackEnd\\SIAVIBioFITBackEnd.csproj|solutionrelative:siavibiofitbackend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7D0F28C-5F8D-B85A-B598-65CE9682E4D6}|SIAVIBioFITBackEnd\\SIAVIBioFITBackEnd.csproj|c:\\users\\renfe\\desktop\\siavibiofi_backend\\siavibiofitbackend\\utils\\facerecognitionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7D0F28C-5F8D-B85A-B598-65CE9682E4D6}|SIAVIBioFITBackEnd\\SIAVIBioFITBackEnd.csproj|solutionrelative:siavibiofitbackend\\utils\\facerecognitionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Renfe\\Desktop\\SIAVIBioFIT\\SIAVIBioFIT\\Services\\UserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Renfe\\Desktop\\SIAVIBioFIT\\SIAVIBioFIT\\Services\\IFaceRecognitionService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7D0F28C-5F8D-B85A-B598-65CE9682E4D6}|SIAVIBioFITBackEnd\\SIAVIBioFITBackEnd.csproj|c:\\users\\renfe\\desktop\\siavibiofi_backend\\siavibiofitbackend\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7D0F28C-5F8D-B85A-B598-65CE9682E4D6}|SIAVIBioFITBackEnd\\SIAVIBioFITBackEnd.csproj|solutionrelative:siavibiofitbackend\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Renfe\\Desktop\\TASSI\\IsepInDoorNavigationAPI\\InDoorMappingAPI\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -59,7 +63,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -71,20 +75,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RegisterUserDto.cs",
-              "DocumentMoniker": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\DTOs\\RegisterUserDto.cs",
-              "RelativeDocumentMoniker": "SIAVIBioFITBackEnd\\DTOs\\RegisterUserDto.cs",
-              "ToolTip": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\DTOs\\RegisterUserDto.cs",
-              "RelativeToolTip": "SIAVIBioFITBackEnd\\DTOs\\RegisterUserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\Models\\User.cs",
+              "RelativeDocumentMoniker": "SIAVIBioFITBackEnd\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\Models\\User.cs",
+              "RelativeToolTip": "SIAVIBioFITBackEnd\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T15:36:57.935Z",
+              "WhenOpened": "2025-06-20T16:11:32.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "SIAVIBioFITBackEnd\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\Services\\UserService.cs",
+              "RelativeToolTip": "SIAVIBioFITBackEnd\\Services\\UserService.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAADwvzsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T14:14:33.307Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "UersController.cs",
+              "DocumentMoniker": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\Controllers\\UersController.cs",
+              "RelativeDocumentMoniker": "SIAVIBioFITBackEnd\\Controllers\\UersController.cs",
+              "ToolTip": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\Controllers\\UersController.cs",
+              "RelativeToolTip": "SIAVIBioFITBackEnd\\Controllers\\UersController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAwwDcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T14:10:46.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FaceRecognitionHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\Utils\\FaceRecognitionHelper.cs",
+              "RelativeDocumentMoniker": "SIAVIBioFITBackEnd\\Utils\\FaceRecognitionHelper.cs",
+              "ToolTip": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\Utils\\FaceRecognitionHelper.cs",
+              "RelativeToolTip": "SIAVIBioFITBackEnd\\Utils\\FaceRecognitionHelper.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T13:55:23.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\Program.cs",
+              "RelativeDocumentMoniker": "SIAVIBioFITBackEnd\\Program.cs",
+              "ToolTip": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\Program.cs",
+              "RelativeToolTip": "SIAVIBioFITBackEnd\\Program.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAkwEAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T08:24:57.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ExerciseLogsController.cs",
               "DocumentMoniker": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\Controllers\\ExerciseLogsController.cs",
               "RelativeDocumentMoniker": "SIAVIBioFITBackEnd\\Controllers\\ExerciseLogsController.cs",
@@ -97,20 +153,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ExerciseController.cs",
-              "DocumentMoniker": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\Controllers\\ExerciseController.cs",
-              "RelativeDocumentMoniker": "SIAVIBioFITBackEnd\\Controllers\\ExerciseController.cs",
-              "ToolTip": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\Controllers\\ExerciseController.cs",
-              "RelativeToolTip": "SIAVIBioFITBackEnd\\Controllers\\ExerciseController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "RecognitionController.cs",
+              "DocumentMoniker": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\Controllers\\RecognitionController.cs",
+              "RelativeDocumentMoniker": "SIAVIBioFITBackEnd\\Controllers\\RecognitionController.cs",
+              "ToolTip": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\Controllers\\RecognitionController.cs",
+              "RelativeToolTip": "SIAVIBioFITBackEnd\\Controllers\\RecognitionController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAzwBkAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T15:33:07.143Z",
+              "WhenOpened": "2025-06-20T13:53:22.97Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "SIAVIBioFITBackEnd\\Controllers\\WeatherForecastController.cs",
@@ -123,72 +179,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "SIAVIBioFITBackEnd\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\Services\\UserService.cs",
-              "RelativeToolTip": "SIAVIBioFITBackEnd\\Services\\UserService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T14:14:33.307Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UersController.cs",
-              "DocumentMoniker": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\Controllers\\UersController.cs",
-              "RelativeDocumentMoniker": "SIAVIBioFITBackEnd\\Controllers\\UersController.cs",
-              "ToolTip": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\Controllers\\UersController.cs",
-              "RelativeToolTip": "SIAVIBioFITBackEnd\\Controllers\\UersController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAowCMAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T14:10:46.823Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "FaceRecognitionHelper.cs",
-              "DocumentMoniker": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\Utils\\FaceRecognitionHelper.cs",
-              "RelativeDocumentMoniker": "SIAVIBioFITBackEnd\\Utils\\FaceRecognitionHelper.cs",
-              "ToolTip": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\Utils\\FaceRecognitionHelper.cs",
-              "RelativeToolTip": "SIAVIBioFITBackEnd\\Utils\\FaceRecognitionHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
+              "Title": "ExerciseController.cs",
+              "DocumentMoniker": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\Controllers\\ExerciseController.cs",
+              "RelativeDocumentMoniker": "SIAVIBioFITBackEnd\\Controllers\\ExerciseController.cs",
+              "ToolTip": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\Controllers\\ExerciseController.cs",
+              "RelativeToolTip": "SIAVIBioFITBackEnd\\Controllers\\ExerciseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T13:55:23.739Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RecognitionController.cs",
-              "DocumentMoniker": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\Controllers\\RecognitionController.cs",
-              "RelativeDocumentMoniker": "SIAVIBioFITBackEnd\\Controllers\\RecognitionController.cs",
-              "ToolTip": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\Controllers\\RecognitionController.cs",
-              "RelativeToolTip": "SIAVIBioFITBackEnd\\Controllers\\RecognitionController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T13:53:22.97Z",
+              "WhenOpened": "2025-06-20T15:33:07.143Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\Program.cs",
-              "RelativeDocumentMoniker": "SIAVIBioFITBackEnd\\Program.cs",
-              "ToolTip": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\Program.cs",
-              "RelativeToolTip": "SIAVIBioFITBackEnd\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA6wBkAAAAwAAAAAAAAAA==",
+              "Title": "RegisterUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\DTOs\\RegisterUserDto.cs",
+              "RelativeDocumentMoniker": "SIAVIBioFITBackEnd\\DTOs\\RegisterUserDto.cs",
+              "ToolTip": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\DTOs\\RegisterUserDto.cs",
+              "RelativeToolTip": "SIAVIBioFITBackEnd\\DTOs\\RegisterUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T08:24:57.587Z",
+              "WhenOpened": "2025-06-20T15:36:57.935Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "SIAVIBioFITBackEnd\\Properties\\launchSettings.json",
@@ -201,7 +218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "IFaceRecognitionService.cs",
               "DocumentMoniker": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFIT\\SIAVIBioFIT\\Services\\IFaceRecognitionService.cs",
               "RelativeDocumentMoniker": "..\\SIAVIBioFIT\\SIAVIBioFIT\\Services\\IFaceRecognitionService.cs",
@@ -214,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFIT\\SIAVIBioFIT\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "..\\SIAVIBioFIT\\SIAVIBioFIT\\Services\\UserService.cs",
@@ -227,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Renfe\\Desktop\\TASSI\\IsepInDoorNavigationAPI\\InDoorMappingAPI\\Program.cs",
               "RelativeDocumentMoniker": "..\\TASSI\\IsepInDoorNavigationAPI\\InDoorMappingAPI\\Program.cs",

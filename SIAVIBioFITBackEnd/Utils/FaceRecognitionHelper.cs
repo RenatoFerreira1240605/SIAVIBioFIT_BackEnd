@@ -11,29 +11,19 @@ namespace SIAVIBioFITBackEnd.Utils
 
     public static class FaceRecognitionHelper
     {
-        public static FaceRecognitionResult Run(byte[] referenceImageBytes, string capturedImagePath)
+        public static async Task<FaceRecognitionResult?> CallPythonApiAsync(byte[] referenceImage, string capturedPath)
         {
-            // 1. Guardar imagem da BD como reference.jpg (em disco temporário)
-            var referencePath = Path.Combine(Path.GetTempPath(), "reference.jpg");
-            File.WriteAllBytes(referencePath, referenceImageBytes);
+            using var client = new HttpClient();
+            using var content = new MultipartFormDataContent();
 
-            // 2. Chamar o script Python com os dois caminhos
-            var processInfo = new ProcessStartInfo
-            {
-                FileName = "python",
-                Arguments = $"face_recognition_api.py \"{referencePath}\" \"{capturedImagePath}\"",
-                RedirectStandardOutput = true,
-                UseShellExecute = false,
-                CreateNoWindow = true
-            };
+            content.Add(new ByteArrayContent(referenceImage), "reference", "reference.jpg");
+            content.Add(new StreamContent(File.OpenRead(capturedPath)), "image", "captured.jpg");
 
-            using var process = Process.Start(processInfo);
-            string output = process!.StandardOutput.ReadToEnd();
-            process.WaitForExit();
+            var response = await client.PostAsync("https://siavibiofit-faceapi.onrender.com/recognize", content);
+            var json = await response.Content.ReadAsStringAsync();
 
-            // 3. Deserializar output JSON
-            var result = JsonSerializer.Deserialize<FaceRecognitionResult>(output);
-            return result ?? new FaceRecognitionResult { match = false, email = null };
+            return JsonSerializer.Deserialize<FaceRecognitionResult>(json);
         }
+
     }
 }

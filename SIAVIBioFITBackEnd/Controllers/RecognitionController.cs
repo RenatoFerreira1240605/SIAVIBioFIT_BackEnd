@@ -41,7 +41,7 @@ namespace SIAVIBioFITBackEnd.Controllers
                 if (user.FaceImage == null)
                     continue;
 
-                var result = FaceRecognitionHelper.Run(user.FaceImage, capturedPath);
+                var result = await FaceRecognitionHelper.CallPythonApiAsync(user.FaceImage, capturedPath);
 
                 if (result.match)
                 {

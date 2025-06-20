@@ -67,7 +67,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -76,19 +76,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RecognitionDto.cs",
-              "DocumentMoniker": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\DTOs\\RecognitionDto.cs",
-              "RelativeDocumentMoniker": "SIAVIBioFITBackEnd\\DTOs\\RecognitionDto.cs",
-              "ToolTip": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\DTOs\\RecognitionDto.cs",
-              "RelativeToolTip": "SIAVIBioFITBackEnd\\DTOs\\RecognitionDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T16:33:47.983Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -176,9 +163,22 @@
               "RelativeDocumentMoniker": "SIAVIBioFITBackEnd\\Controllers\\RecognitionController.cs",
               "ToolTip": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\Controllers\\RecognitionController.cs",
               "RelativeToolTip": "SIAVIBioFITBackEnd\\Controllers\\RecognitionController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBkAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCAAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-20T13:53:22.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RecognitionDto.cs",
+              "DocumentMoniker": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\DTOs\\RecognitionDto.cs",
+              "RelativeDocumentMoniker": "SIAVIBioFITBackEnd\\DTOs\\RecognitionDto.cs",
+              "ToolTip": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\DTOs\\RecognitionDto.cs",
+              "RelativeToolTip": "SIAVIBioFITBackEnd\\DTOs\\RecognitionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T16:33:47.983Z",
               "EditorCaption": ""
             },
             {

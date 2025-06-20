@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{A7D0F28C-5F8D-B85A-B598-65CE9682E4D6}|SIAVIBioFITBackEnd\\SIAVIBioFITBackEnd.csproj|solutionrelative:siavibiofitbackend\\controllers\\recognitioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A7D0F28C-5F8D-B85A-B598-65CE9682E4D6}|SIAVIBioFITBackEnd\\SIAVIBioFITBackEnd.csproj|c:\\users\\renfe\\desktop\\siavibiofi_backend\\siavibiofitbackend\\dtos\\recognitiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7D0F28C-5F8D-B85A-B598-65CE9682E4D6}|SIAVIBioFITBackEnd\\SIAVIBioFITBackEnd.csproj|solutionrelative:siavibiofitbackend\\dtos\\recognitiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A7D0F28C-5F8D-B85A-B598-65CE9682E4D6}|SIAVIBioFITBackEnd\\SIAVIBioFITBackEnd.csproj|c:\\users\\renfe\\desktop\\siavibiofi_backend\\siavibiofitbackend\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7D0F28C-5F8D-B85A-B598-65CE9682E4D6}|SIAVIBioFITBackEnd\\SIAVIBioFITBackEnd.csproj|solutionrelative:siavibiofitbackend\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -75,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\Models\\User.cs",
               "RelativeDocumentMoniker": "SIAVIBioFITBackEnd\\Models\\User.cs",
@@ -88,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "SIAVIBioFITBackEnd\\Services\\UserService.cs",
@@ -101,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "UersController.cs",
               "DocumentMoniker": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\Controllers\\UersController.cs",
               "RelativeDocumentMoniker": "SIAVIBioFITBackEnd\\Controllers\\UersController.cs",
@@ -114,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FaceRecognitionHelper.cs",
               "DocumentMoniker": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\Utils\\FaceRecognitionHelper.cs",
               "RelativeDocumentMoniker": "SIAVIBioFITBackEnd\\Utils\\FaceRecognitionHelper.cs",
@@ -127,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\Program.cs",
               "RelativeDocumentMoniker": "SIAVIBioFITBackEnd\\Program.cs",
@@ -140,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ExerciseLogsController.cs",
               "DocumentMoniker": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\Controllers\\ExerciseLogsController.cs",
               "RelativeDocumentMoniker": "SIAVIBioFITBackEnd\\Controllers\\ExerciseLogsController.cs",
@@ -159,14 +163,27 @@
               "RelativeDocumentMoniker": "SIAVIBioFITBackEnd\\Controllers\\RecognitionController.cs",
               "ToolTip": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\Controllers\\RecognitionController.cs",
               "RelativeToolTip": "SIAVIBioFITBackEnd\\Controllers\\RecognitionController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAzwBkAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCAAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-20T13:53:22.97Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
+              "Title": "RecognitionDto.cs",
+              "DocumentMoniker": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\DTOs\\RecognitionDto.cs",
+              "RelativeDocumentMoniker": "SIAVIBioFITBackEnd\\DTOs\\RecognitionDto.cs",
+              "ToolTip": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\DTOs\\RecognitionDto.cs",
+              "RelativeToolTip": "SIAVIBioFITBackEnd\\DTOs\\RecognitionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T16:33:47.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "SIAVIBioFITBackEnd\\Controllers\\WeatherForecastController.cs",
@@ -179,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ExerciseController.cs",
               "DocumentMoniker": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\Controllers\\ExerciseController.cs",
               "RelativeDocumentMoniker": "SIAVIBioFITBackEnd\\Controllers\\ExerciseController.cs",
@@ -192,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "RegisterUserDto.cs",
               "DocumentMoniker": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\DTOs\\RegisterUserDto.cs",
               "RelativeDocumentMoniker": "SIAVIBioFITBackEnd\\DTOs\\RegisterUserDto.cs",
@@ -205,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFI_BackEnd\\SIAVIBioFITBackEnd\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "SIAVIBioFITBackEnd\\Properties\\launchSettings.json",
@@ -218,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "IFaceRecognitionService.cs",
               "DocumentMoniker": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFIT\\SIAVIBioFIT\\Services\\IFaceRecognitionService.cs",
               "RelativeDocumentMoniker": "..\\SIAVIBioFIT\\SIAVIBioFIT\\Services\\IFaceRecognitionService.cs",
@@ -231,7 +248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\Renfe\\Desktop\\SIAVIBioFIT\\SIAVIBioFIT\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "..\\SIAVIBioFIT\\SIAVIBioFIT\\Services\\UserService.cs",
@@ -244,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Renfe\\Desktop\\TASSI\\IsepInDoorNavigationAPI\\InDoorMappingAPI\\Program.cs",
               "RelativeDocumentMoniker": "..\\TASSI\\IsepInDoorNavigationAPI\\InDoorMappingAPI\\Program.cs",

@@ -29,7 +29,7 @@ namespace SiaviBioFit.Shared.Services
             return await _context.Users.ToListAsync();
         }
 
-        public async Task<bool> AddAsync(User user)
+        public async Task<bool> CreateUserAsync(User user)
         {
             if (await _context.Users.AnyAsync(u => u.Email == user.Email)) return false;
 

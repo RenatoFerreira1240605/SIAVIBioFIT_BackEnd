@@ -28,14 +28,25 @@ namespace SIAVIBioFITBackEnd
             builder.Services.AddScoped<ExerciseService>();
             builder.Services.AddScoped<ExerciseLogService>();
 
+            builder.WebHost.ConfigureKestrel(serverOptions =>
+            {
+                serverOptions.ListenAnyIP(PortFromEnv());
+            });
+
+            int PortFromEnv()
+            {
+                var port = Environment.GetEnvironmentVariable("PORT");
+                return string.IsNullOrEmpty(port) ? 5000 : int.Parse(port);
+            }
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
-            if (app.Environment.IsDevelopment())
-            {
-                app.UseSwagger();
-                app.UseSwaggerUI();
-            }
+
+            app.UseSwagger();
+            app.UseSwaggerUI();
+
+            
 
             app.UseHttpsRedirection();
 

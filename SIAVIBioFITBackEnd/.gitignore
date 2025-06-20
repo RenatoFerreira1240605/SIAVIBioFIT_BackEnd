@@ -1,0 +1,28 @@
+# Build
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Logs
+*.log
+
+# EF Core Migrations build artifacts
+Migrations/*.Designer.cs
+Migrations/*.csproj
+
+# User secrets
+secrets.json
+appsettings.Development.json
+appsettings.Local.json
+
+# LocalDB files (se usares SQLite em dev)
+*.db
+*.db-shm
+*.db-wal
+
+# Dev Tunnels (caso uses)
+*.devtunnel.json

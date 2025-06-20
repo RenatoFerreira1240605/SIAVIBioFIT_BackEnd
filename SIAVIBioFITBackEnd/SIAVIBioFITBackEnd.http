@@ -1,0 +1,6 @@
+@SIAVIBioFITBackEnd_HostAddress = http://localhost:5179
+
+GET {{SIAVIBioFITBackEnd_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

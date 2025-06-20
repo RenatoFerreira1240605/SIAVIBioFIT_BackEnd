@@ -1,24 +1,14 @@
-# Etapa 1: build
-FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
+# Etapa de build
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+WORKDIR /src
+COPY ["SIAVIBioFITBackEnd.csproj", "."]
+RUN dotnet restore "SIAVIBioFITBackEnd.csproj"
+COPY . .
+RUN dotnet publish "SIAVIBioFITBackEnd.csproj" -c Release -o /app/publish
+
+# Etapa de runtime
+FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
+COPY --from=build /app/publish .
 
-# Copia o csproj e restaura dependências
-COPY *.csproj ./
-RUN dotnet restore
-
-# Copia o resto do código e compila
-COPY . ./
-RUN dotnet publish -c Release -o out
-
-# Etapa 2: runtime
-FROM mcr.microsoft.com/dotnet/aspnet:7.0
-WORKDIR /app
-
-# Copia a build final
-COPY --from=build /app/out .
-
-# Render define a porta como variável de ambiente $PORT
-ENV ASPNETCORE_URLS=http://+:$PORT
-
-# Inicia a aplicação
 ENTRYPOINT ["dotnet", "SIAVIBioFITBackEnd.dll"]

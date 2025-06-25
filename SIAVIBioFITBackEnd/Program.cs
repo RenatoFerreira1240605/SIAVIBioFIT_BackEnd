@@ -61,8 +61,8 @@ namespace SIAVIBioFITBackEnd
             var app = builder.Build();
 
             // Força a API a ouvir em http://localhost:8080
-            //app.Urls.Add("http://localhost:8080");
-            //app.Urls.Add("http://0.0.0.0:8080");
+            app.Urls.Add("http://localhost:8080");
+            app.Urls.Add("http://0.0.0.0:8080");
 
 
             // Configure the HTTP request pipeline.
